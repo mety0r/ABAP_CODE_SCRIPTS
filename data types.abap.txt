@@ -1,0 +1,13 @@
+"DATA TYPES AND VARIABLES IN ABAP"
+
+REPORT z_variables.
+
+DATA: l_integer TYPE i VALUE 10,
+      l_decimal TYPE p VALUE '15.75',
+      l_string  TYPE string VALUE 'A beginner',
+      l_date    TYPE date   VALUE '20250227'.
+
+WRITE: / 'Integer:', l_integer,
+       / 'Decimal:', l_decimal,
+       / 'String:', l_string,
+       / 'Date:', l_date.

@@ -1,0 +1,19 @@
+"Arithmetic Operations"
+
+REPORT z_arithmetic
+
+DATA: l_num1 TYPE i VALUE 10,
+      l_num2 TYPE i VALUE 5,
+      l_result type i.
+
+l_result = l_num1 + l_num2.
+WRITE: / 'num1', '+', 'num2', '=', l_result.
+
+l_result = l_num1 - l_num2.
+WRITE: / 'num1', '-', 'num2', '=', l_result.
+
+l_result = l_num1 * l_num2.
+WRITE: / 'num1', '*', 'num2', '=', l_result.
+
+l_result = l_num1 / l_num2.
+WRITE: / 'num1', '/', 'num2', '=', l_result.
